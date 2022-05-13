@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DigitButton from './components/DigitButton';
+import OperationButton from './components/OperationButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <DigitButton/>
+    <OperationButton/>
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
